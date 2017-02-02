@@ -39,6 +39,8 @@ LootHistory = {
 		    LootHistory.display(lh.lootHistory);
 		});
 
+		
+
 
 	},
 
