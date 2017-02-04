@@ -39,7 +39,7 @@ LootHistory = {
 		    LootHistory.display(lh.lootHistory);
 		});
 
-		
+
 
 
 	},
@@ -57,6 +57,7 @@ LootHistory = {
 
 			var displayDate = $('<td>', {
 				"class": "display-date",
+				"data-timestamp": item[0],
 				"text": LootHistory.parseDate(item[0])
 			}).appendTo(displayContainer);
 
