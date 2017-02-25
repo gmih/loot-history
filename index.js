@@ -75,6 +75,11 @@ LootHistory = {
 				"href": LootHistory.formatItem(item[2]),
 				"text": LootHistory.formatItem(item[2])
 			}).appendTo(displayLink);
+
+			// var displayGP = $('<td>', {
+			// 	"class": "display-gp",
+			// 	"text": item[3]
+			// }).appendTo(displayContainer);
 		}
 	},
 
